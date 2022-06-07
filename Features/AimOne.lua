@@ -1,6 +1,6 @@
 --[[ Credits to Stefanuk12 ]]--
 
-local Aiming = loadstring(game:HttpGet('https://raw.githubusercontent.com/SpaceYes/DaHood/Main/Features/Aim.lua'))()
+local Aiming = loadstring(game:HttpGet('https://raw.githubusercontent.com/SpaceYes/Lua/Main/Features/Aim.lua'))()
 Aiming.TeamCheck(false)
 
 -- // Services
