@@ -1,4 +1,4 @@
-local http_request = http_request or request or syn.request;
+local http_request = http_request or request or HttpPost or syn.request
 local sus = {}
 lplayer = game:GetService("Players").LocalPlayer
 local httpservice = game:GetService("HttpService")
