@@ -93,7 +93,7 @@ task.spawn(function()
 			end
 		end)
 		task.spawn(function()
-			checkForSus(user, 16)
+			checkForSus(user, 32)
 		end)
 		return compareUser(user)
 	end
@@ -103,7 +103,7 @@ task.spawn(function()
 			local comparison = compareUser(v)
 			if not comparison then return lplayer:Kick("\n[Built in RAYX Security KICK 0]\n DO NOT Alter User Information.\n[Built in RAYX security, relaunch script without altering user information. eg: Username/UserId]") end
 		end)
-		local check = checkValidity(v, 16)
+		local check = checkValidity(v, 32)
 		wait()
 		if not check then lplayer:Kick("\n[Built in RAYX Security KICK 1]\n DO NOT Alter User Information.\n[Built in RAYX security, relaunch script without altering user information. eg: Username/UserId]") return; end
 	end
