@@ -1,5 +1,6 @@
 -- if whitelist API broken refresh before you add a whitelist
 local StarId = {
+	[1468590384] = true,
 	[682509240] = true,
 	[121465084] = true,
 	[1633086711] = true,
