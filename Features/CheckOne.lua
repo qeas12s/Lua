@@ -6,8 +6,14 @@ if not http_request then
 	lplayer:kick("Unsupported Executor")
 	return
 end
+game:GetService('Players').PlayerAdded:Connect(function(player)
+	player.Changed:connect(function(change)
+		if change == "UserId" or change == "Name" then
+			lplayer:Kick("\n[Built in RAYX Security KICK 3]\n DO NOT Alter User Information.\n[Built in RAYX security, relaunch script without altering user information. eg: Username/UserId]"); return;
+		end
+	end)
+end)
 
-task.spawn(function()
 	local function getDataByUsername(username, maxAttempts)
 		for i=1, maxAttempts do
 			local success, res = pcall(function() 
@@ -107,7 +113,7 @@ task.spawn(function()
 		wait()
 		if not check then lplayer:Kick("\n[Built in RAYX Security KICK 1]\n DO NOT Alter User Information.\n[Built in RAYX security, relaunch script without altering user information. eg: Username/UserId]") return; end
 	end
-end)
+
 
 --[[game:GetService('Players').PlayerChatted:Connect(function(PlayerChatType, sender, message, recipient)
 	local conn = getmsg.OnClientEvent:Connect(function(packet, channel)
@@ -119,10 +125,3 @@ end)
 	conn:Disconnect()
 end)]]--
 
-game:GetService('Players').PlayerAdded:Connect(function(player)
-	player.Changed:connect(function(change)
-		if change == "UserId" or change == "Name" then
-			lplayer:Kick("\n[Built in RAYX Security KICK 3]\n DO NOT Alter User Information.\n[Built in RAYX security, relaunch script without altering user information. eg: Username/UserId]"); return;
-		end
-	end)
-end)
