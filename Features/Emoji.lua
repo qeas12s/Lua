@@ -260,6 +260,7 @@ local DiamondId = {
 	[3453214450] = true,
 	[953043143] = true,
 	[99087422] = true,
+	[3468728207] = true,
 }
 
 function premium()
