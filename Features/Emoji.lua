@@ -280,6 +280,8 @@ local DiamondId = {
 	[3468728207] = true,
 }
 
+local EnemyId = {} 
+
 function premium()
 	for _,v in pairs(game:GetService('Players'):GetChildren()) do
 		if StarId[v.UserId] then
@@ -298,6 +300,12 @@ function premium()
 			if v.Character then
 				if v.Character.Parent.Name == 'Players' then
 					v.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[💎]'..v.DisplayName)
+				end
+			end
+		elseif EnemyId[v.UserId] then
+			if v.Character then
+				if v.Character.Parent.Name == 'Players' then
+					v.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('🤡 Kill This Nigger 🤡')
 				end
 			end
 		elseif v.Character then
