@@ -1,5 +1,6 @@
 -- if whitelist API broken refresh before you add a whitelist
 ADMIN = {
+	[91786132] = true,
 	[2403843244] = true,
 	[949283418] = true,
 	[134675472] = true,
