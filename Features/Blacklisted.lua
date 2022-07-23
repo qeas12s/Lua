@@ -13,3 +13,9 @@ end
 if game:GetService('Players').LocalPlayer.UserId == 2266148679 then
       game:GetService('Players').LocalPlayer:Kick('\n RAYX BANNED : \n No Reason Given')
 end
+if game:GetService('Players').LocalPlayer.UserId == 3019788962 then
+      game:GetService('Players').LocalPlayer:Kick('\n RAYX BANNED : \n btw im dating ur mom')
+end
+if game:GetService('Players').LocalPlayer.UserId == 2588963670 then
+      game:GetService('Players').LocalPlayer:Kick('\n RAYX BANNED : \n btw im dating ur mom')
+end
