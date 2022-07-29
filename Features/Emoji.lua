@@ -1,5 +1,6 @@
 -- \\ If the whitelist API is down make sure to refresh before adding a whitelist! // --
 local StarId = {
+        [2769727617] = true,
 	[269289388] = true,
         [2529315271] = true,
 	[606041098] = true,
