@@ -1,7 +1,7 @@
 -- \\ If the whitelist API is down make sure to refresh before adding a whitelist! // --
 -- \\ [152216529] = true, revoked until payment
 local StarId = {
-	[1185130936] = true,
+	[3458314909] = true,
 	[1840257900] = true,
 	[993331411] = true,
 	[1111841630] = true,
